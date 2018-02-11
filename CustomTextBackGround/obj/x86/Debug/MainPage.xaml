@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CustomTextBackGround.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomTextBackGround"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textblock" HorizontalAlignment="Left" Margin="136,566,0,0" Text="Empty" TextWrapping="Wrap" VerticalAlignment="Top" Height="49"/>
+        <Button x:ConnectionId='2' Content="Open" HorizontalAlignment="Left" Margin="27,567,0,0" VerticalAlignment="Top"                      Height="31"/>
+        <Image x:ConnectionId='3' x:Name="imageView" HorizontalAlignment="Left" Height="362" Margin="242,212,0,0" VerticalAlignment="Top" Width="784"/>
+        <Button x:ConnectionId='4' x:Name="setbg" Content="SET BG" HorizontalAlignment="Left" Margin="50,530,0,0" VerticalAlignment="Top"                    />
+
+    </Grid>
+</Page>
+
